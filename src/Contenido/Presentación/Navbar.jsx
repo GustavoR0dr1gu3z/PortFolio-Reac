@@ -30,7 +30,7 @@ const Navbar = () => {
                 <Toolbar>                  
                 
                     <Typography variant="h6">
-                        Portfolio Gustavo Rodriguez Calzada
+                        Portfolio Gustavo Rodriguez Calzada 
                     </Typography>
 
                     <IconButton 
