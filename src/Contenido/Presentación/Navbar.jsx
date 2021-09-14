@@ -6,9 +6,11 @@ import IconButton from '@material-ui/core/IconButton'
 import Button from '@material-ui/core/Button'
 import FaceRoundedIcon from '@material-ui/icons/FaceRounded';
 
-
 const estilos = makeStyles(theme =>({
 
+    claseNav:{
+        backgroundColor: '#889EAF'
+    }
 
 
 }))
@@ -18,8 +20,13 @@ const Navbar = () => {
     const classes = estilos();
 
     return (
+
         <div>
-            <AppBar position="fixed">
+            
+            <AppBar 
+                position="fixed"
+                className={classes.claseNav}
+            >
 
                 <Toolbar>                  
                 
@@ -28,14 +35,24 @@ const Navbar = () => {
                     </Typography>
 
                     <IconButton 
-                        aria-label="menu" 
+                        aria-label="quienSoy" 
                         color="inherit"                         
                     >
                         <FaceRoundedIcon/>
+                        <Typography 
+                            variant="h6" 
+                            color="initial">
+                        
+                            ¿Quién soy?
+                        </Typography>
                     </IconButton>
-
-                    <Button color="inherit">Login</Button>                    
-                      
+                    
+                    <IconButton 
+                        aria-label="participaciones" 
+                        color="inherit"
+                    >
+                        
+                    </IconButton>
 
                 </Toolbar>
 

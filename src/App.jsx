@@ -4,10 +4,11 @@ import Navbar from './Contenido/Presentación/Navbar.jsx'
 
 const App = () => {
   return (
+        
     <div>
-      
-      <ThemeProvider theme={theme}>
 
+      <ThemeProvider theme={theme}>
+      
       <Navbar/>
 
       </ThemeProvider>
