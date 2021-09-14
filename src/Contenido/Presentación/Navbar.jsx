@@ -15,7 +15,6 @@ const estilos = makeStyles(theme =>({
 
 }))
 
-
 const Navbar = () => {
     const classes = estilos();
 
