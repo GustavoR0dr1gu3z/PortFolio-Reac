@@ -1,3 +1,4 @@
+
 import { makeStyles } from '@material-ui/styles'
 
 const estilos = makeStyles(theme =>({
@@ -7,7 +8,7 @@ const estilos = makeStyles(theme =>({
 }))
 
 
-const navbar = () => {
+const FotoDescripcion = () => {
     const classes = estilos();
     
     return (
@@ -17,4 +18,4 @@ const navbar = () => {
     )
 }
 
-export default navbar
+export default FotoDescripcion

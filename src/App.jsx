@@ -1,5 +1,6 @@
 import {ThemeProvider} from '@material-ui/core/styles'
 import theme from './temaConfig'
+import Navbar from './Contenido/Presentación/Navbar.jsx'
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       
       <ThemeProvider theme={theme}>
 
-      <h1>jaja</h1>
+      <Navbar/>
 
       </ThemeProvider>
 
